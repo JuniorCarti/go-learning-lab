@@ -12,6 +12,22 @@ func main() {
 	fmt.Println(age, name, d)
 */
 
+
+/*Go automatically gives variables default values.
+
+A string gets:
+
+""
+
+an int gets:
+
+0
+
+and a bool gets:
+
+false
+
+So this exercise is teaching you that Go variables are initialized even if you don't explicitly give them a value.*/
 package main
 
 import "fmt"
